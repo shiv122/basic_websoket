@@ -1,0 +1,48 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+.message-container{
+    height: 300px;
+    border: 1px solid rgba(0,0,0,0.175);
+    margin-bottom: 10px;
+    width: 95%;
+    border-radius: 5px;
+    overflow-x: auto;
+
+    li{
+        list-style: none;
+    }
+
+
+   .msg{
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+   }
+   .msg.self{
+    align-self: end;
+
+    background-color: #ffe4de;
+   }
+    .msg.other{
+     align-self: start;
+
+    background-color: #dee3ff;
+    }
+}
+#active-users{
+    li{
+        list-style: none;
+    }
+}
+
+#typer{
+    float: right;
+}
